@@ -23,3 +23,30 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/* 
+
+LOGO
+I'm thinking I'm going to use margin-left: auto and
+margin-right: auto on the logo
+
+ALL
+Everything must be centered vertically
+
+*/
+
+/* CSS CHANGES */
+
+.header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
